@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolina Aguirre</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <section>
+
+        <h1> CURRICULUM VITAE </h1>
+
+        <div class="box1">
+            <img src="imagenes/FotoPerfil.jpg" alt="Foto Personal" style="float:right;width:180px;height:180px;"/>
+            <div><br></div>
+            <div>CAROLINA AGUIRRE</div>
+        </div>
+
+        <div class="box2">
+            <i>Contadora Pública</i>
+        </div>
+
+        <div class="box3">
+            <b><u>Datos Personales</u></b><br>
+            <br>
+            Edad: <b>34 años</b><br>
+            Nacimiento: <b>10/01/1989</b><br>
+            Localidad: <b>Córdoba</b><br>
+            Nacionalidad: <b>Argentina</b><br>
+            <br>
+            email: <b>caroag83@gmail.com</b><br>
+            Teléfono: <b>0351-5520831</b><br>
+            Dirección: <b>General Paz 311, Córdoba</b><br>
+        </div>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openData(event, 'Formacion')"><b>Formación</b></button>
+            <button class="tablinks" onclick="openData(event, 'Antecedentes')"><b>Antecedentes Laborales</b></button>
+            <button class="tablinks" onclick="openData(event, 'Idiomas')"><b>Idiomas / Informática</b></button>
+        </div>
+          
+          <div id="Formacion" class="tabcontent">
+            <h3>Formación</h3>
+            <p>
+                2017-2019 Máster en Asesoramiento Fiscal de Empresas (UES21)<br>
+                <br>
+                2007-2012 Contadora pública (UNC)<br>
+                <br>
+                2001-2006 Bachiller Perito Mercantil (Instituto secundario General Paz)<br>
+                <br>
+            </p>
+            <span onclick="this.parentElement.style.display='none'">- <i>Cerrar</i> -</span>
+          </div>
+          
+          <div id="Antecedentes" class="tabcontent">
+            <h3>Antecedentes Laborales</h3>
+                <p>
+                Empresa: Contar Asesoramiento <br>
+                Periodo laboral: 2018-2022 <br>
+                Puesto: Asesora contable y fiscal<br>
+                <br>
+                Tareas realizadas: <br>
+                Pago y elaboración de impuestos <br>
+                Asesoramiento fiscal y contable <br>
+                Gestión de cobros <br>
+                Gestión de activos <br>
+                <br>
+                <br>
+                <br>
+                Empresa: Asix Textil <br>
+                Periodo laboral: 2014-2018 <br>
+                Puesto: Técnica contable <br>
+                <br>
+                Tareas realizadas: <br>
+                Gestión de cobros <br>
+                Registro de facturas de clientes, proveedores y acreedores <br>
+                Otras actividades administrativas <br>
+                </p>
+                <span onclick="this.parentElement.style.display='none'">- <i>Cerrar</i> -</span>
+          </div>
+          
+          <div id="Idiomas" class="tabcontent">
+            <h3>Idiomas / Informática</h3>
+            <p>
+                Idioma Nativo: Español <br>
+                Idioma Ingles - Nivel: Avanzado <br>
+                <br>
+                Manejo de Word - Nivel: Intermedio <br>
+                Manejo de Excel - Nivel: Avanzado <br>
+                Otros: Bases de Datos, Office <br>
+            </p>
+            <span onclick="this.parentElement.style.display='none'">- <i>Cerrar</i> -</span>
+          </div>
+          
+        <div class="box2">
+                <small>Gracias por su visita</small>
+        </div>
+    
+    </section>
+
+    <script src="js/datos.js"> </script>
+
+</body>
+
+</html>
